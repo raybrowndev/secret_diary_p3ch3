@@ -9,7 +9,7 @@ class Diary:
 
 
     def read(self):
-        if self.contents == "":
+        if self.contents == "": 
             return "My Diary is empty"
         else:
             return self.contents
